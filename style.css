@@ -1,9 +1,8 @@
 body {
   margin: 0;
-  padding: 10;
+  padding: 0;
   background: #fffafc;
-  font-family: Cherry Bomb One;
-  color: #444;
+  font-family: Julius Sans One;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,28 +11,50 @@ body {
   overflow: hidden;
 }
 
-.cherry-bomb-one-regular {
-  font-family: "Cherry Bomb One", system-ui;
+.julius-sans-one-regular {
+  font-family: "Julius Sans One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .bg-image {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 52.5%;
+  left: 72.5%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  max-width: 56%;
+  max-width: 50%;
   height: auto;
-  opacity: 0.6;
 }
 
-.title {
-    font-size: 50px;
-    padding: 20px;
+#typewriter {
+  text-align: left;
+  position: absolute;
+  left: 15%;
+  top: 4%;
+  transform: translateX(-50%);
+  font-size: 25px;
+  user-select: none;
+  white-space: pre-line;
 }
 
 .timer {
-    font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 89.75%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  user-select: none;
+  white-space: pre-line;
+}
+
+audio {
+  display: none;
+}
+
+#audioToggle {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 5.5%;
+  top: 90%;
 }

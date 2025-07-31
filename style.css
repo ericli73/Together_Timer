@@ -28,15 +28,16 @@ body {
 }
 
 #typewriter {
-  text-align: left;
   position: absolute;
-  left: 15%;
-  top: 4%;
+  left: 25%;
+  top: 3%;
   transform: translateX(-50%);
-  font-size: 25px;
+  font-size: 20px;
   user-select: none;
-  white-space: pre-line;
+  white-space: pre;
+  text-align: left;
 }
+
 
 .timer {
   position: absolute;
@@ -54,7 +55,49 @@ audio {
 
 #audioToggle {
   position: absolute;
+  scale: 0.88;
   transform: translate(-50%, -50%);
-  left: 5.5%;
-  top: 90%;
+  left: 2.5%;
+  top: 94%;
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    font-size: 16px;
+    justify-content: flex-start;
+    height: auto;
+    padding: 1rem;
+    overflow: auto;
+  }
+
+  .bg-image {
+    top: 55%;
+    left: 50%;
+    max-width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+  #typewriter {
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .timer {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #audioToggle {
+    left: 50%;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    scale: 1;
+  }
 }

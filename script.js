@@ -6,10 +6,10 @@ const toggleBtn = document.getElementById("audioToggle");
 toggleBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    toggleBtn.src = "sound_off.png";
+    toggleBtn.src = "pause.png";
   } else {
     audio.pause();
-    toggleBtn.src = "sound_on.png";
+    toggleBtn.src = "play.png";
   }
 });
 
@@ -26,7 +26,7 @@ function updateTimer() {
   document.getElementById("timer").textContent = formatted;
 }
 
-const text = "Dear Leah, \n\nHappy Girlfriends Day!";
+const text = "Dear Leah, \n\n\nHappy Girlfriends Day! \nThank you so much for everything! \n\nYou have truly changed my life: \nYou make me feel loved, \nYour ambition inspires me, \nYour dedication pushes me to grow. \n\nI feel at ease with you. \nI do not need a social battery. \nI can joke freely. \nSilence never feels awkward. \n\nWords can’t express how grateful I am! \nI can’t wait to see you again! \nI look forward to many more firsts together. \n\n\nLove, \nEric";
 const speed = 50;
 let index = 0;
 

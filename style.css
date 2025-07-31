@@ -71,16 +71,15 @@ audio {
   }
 
   .bg-image {
-    top: 50%;
+    top: 75%;
     left: 50%;
     max-width: 90%;
     transform: translate(-50%, -50%);
-    opacity: 0.6;
   }
 
   #typewriter {
     left: 50%;
-    top: 5%;
+    top: 0%;
     transform: translateX(-50%);
     font-size: 16px;
     text-align: center;
@@ -88,16 +87,16 @@ audio {
   }
 
   .timer {
-    top: 90%;
-    left: 50%;
+    top: 75%;
+    left: 80%;
     transform: translate(-50%, -50%);
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
   }
 
   #audioToggle {
-    left: 75%;
-    top: 50%;
+    left: 5%;
+    top: 90%;
     transform: translate(-50%, -50%);
     scale: 1;
   }

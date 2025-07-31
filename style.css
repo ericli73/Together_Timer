@@ -30,9 +30,9 @@ body {
 #typewriter {
   position: absolute;
   left: 25%;
-  top: 3%;
+  top: 4%;
   transform: translateX(-50%);
-  font-size: 20px;
+  font-size: 22px;
   user-select: none;
   white-space: pre;
   text-align: left;
@@ -58,7 +58,7 @@ audio {
   scale: 0.88;
   transform: translate(-50%, -50%);
   left: 2.5%;
-  top: 94%;
+  top: 94.25%;
 }
 
 @media screen and (max-width: 430px) {
@@ -71,9 +71,9 @@ audio {
   }
 
   .bg-image {
-    top: 75%;
+    top: 80%;
     left: 50%;
-    max-width: 90%;
+    max-width: 92.5%;
     transform: translate(-50%, -50%);
   }
 
@@ -90,13 +90,13 @@ audio {
     top: 75%;
     left: 80%;
     transform: translate(-50%, -50%);
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
   }
 
   #audioToggle {
-    left: 5%;
-    top: 90%;
+    left: 7.5%;
+    top: 95%;
     transform: translate(-50%, -50%);
     scale: 1;
   }

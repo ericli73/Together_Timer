@@ -67,14 +67,15 @@ audio {
     justify-content: flex-start;
     height: auto;
     padding: 1rem;
-    overflow: auto;
+    text-overflow: hidden;
   }
 
   .bg-image {
-    top: 55%;
+    top: 50%;
     left: 50%;
     max-width: 90%;
     transform: translate(-50%, -50%);
+    opacity: 0.6;
   }
 
   #typewriter {
@@ -95,8 +96,8 @@ audio {
   }
 
   #audioToggle {
-    left: 50%;
-    top: 97%;
+    left: 75%;
+    top: 50%;
     transform: translate(-50%, -50%);
     scale: 1;
   }

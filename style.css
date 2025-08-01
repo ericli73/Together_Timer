@@ -71,7 +71,7 @@ audio {
   }
 
   .bg-image {
-    top: 80%;
+    top: 82%;
     left: 50%;
     max-width: 92.5%;
     transform: translate(-50%, -50%);
@@ -87,7 +87,7 @@ audio {
   }
 
   .timer {
-    top: 78.875%;
+    top: 80.875%;
     left: 82.4%;
     transform: translate(-50%, -50%);
     font-size: 11px;

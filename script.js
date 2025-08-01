@@ -26,7 +26,7 @@ function updateTimer() {
   document.getElementById("timer").textContent = formatted;
 }
 
-const text = "Dear Leah, \n\nHappy Girlfriends Day! \nThank you so much for everything! \n\nYou have truly changed my life: \nYou make me feel loved; \nYour ambition inspires me; \nYour dedication pushes me to grow. \n\nWith you, I feel at ease: \nI don't need a social battery; \nI can make jokes freely; \nSilence never feels awkward. \n\nWords can’t express how grateful I am! \nI can’t wait to see you again! \nHere’s to more firsts together! \n\nLove, \nEric";
+const text = "Dear Leah, \n\nHappy Girlfriends Day! \nThank you so much for everything! \n\nYou have truly changed my life: \nYou make me feel loved; \nYour ambition inspires me; \nYour dedication pushes me to grow. \n\nWith you, I feel at ease: \nI don't need a social battery; \nI can make jokes freely; \nSilence never feels awkward. \n\nWords can’t express how grateful I am! \nI can’t wait to see you again! \nHere’s to more firsts together! \n\nLove, Eric";
 const speed = 50;
 let index = 0;
 

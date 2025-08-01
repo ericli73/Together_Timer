@@ -71,7 +71,7 @@ audio {
   }
 
   .bg-image {
-    top: 84%;
+    top: 80%;
     left: 50%;
     max-width: 92.5%;
     transform: translate(-50%, -50%);
@@ -79,7 +79,7 @@ audio {
 
   #typewriter {
     left: 50%;
-    top: -1%;
+    top: 0%;
     transform: translateX(-50%);
     font-size: 16px;
     text-align: center;
@@ -87,7 +87,7 @@ audio {
   }
 
   .timer {
-    top: 82.9%;
+    top: 78.875%;
     left: 82.4%;
     transform: translate(-50%, -50%);
     font-size: 11px;
@@ -96,7 +96,7 @@ audio {
 
   #audioToggle {
     left: 7.5%;
-    top: 95.75%;
+    top: 95.725%;
     transform: translate(-50%, -50%);
     scale: 1;
   }
